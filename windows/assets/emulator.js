@@ -9,6 +9,7 @@ $(function() {
   });
   
   $('#windows').click(function() {
+    $('#error').show();
     $('#windows').hide();
   });
   

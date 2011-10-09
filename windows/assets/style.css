@@ -51,6 +51,7 @@ body {
 }
 
 #error {
+  display: none;
   z-index: 0;
 }
 
