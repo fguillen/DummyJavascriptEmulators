@@ -1,0 +1,108 @@
+body {
+  background-color: #ccc;
+  font-family: Verdana;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+#screen {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  float: left;
+  overflow: hidden;
+}
+
+#description {
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+#description h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #000;
+}
+
+#description p {
+  color: #444;
+  margin-bottom: 0.5em;
+}
+
+#screen div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 600px;
+}
+
+
+#loading {
+  z-index: 10;
+  background-color: rgba( 100,100,100,0.6);
+}
+
+#windows {
+  z-index: 2;
+  cursor:pointer;
+}
+
+#error {
+  z-index: 0;
+}
+
+
+#loading a {
+  font-family: "MS Sans Serif4", Geneva, sans-serif;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  line-height: 70px;
+  width: 300px;
+  height: 80px;
+  font-size: 4em;
+  position: absolute;
+  top: 250px;
+  left: 260px;
+}
+
+
+#loading a {    
+  border: 3px solid #636363;
+  border-radius: 8px;
+  background-image: -webkit-gradient(linear, center bottom, center top, from(#fcfcfc), to(#bfbfbf), color-stop(3%, #f7f7f7), color-stop(12%, #f2f2f2), color-stop(90%, #d9d9d9));
+  background-image: -webkit-linear-gradient(bottom, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: -moz-linear-gradient(bottom, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: -o-linear-gradient(bottom, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: -ms-linear-gradient(bottom, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: linear-gradient(bottom, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+}
+
+#the-joke {
+  margin-top: 40px;
+}
+
+#the-joke h1 {
+  font-size: 1.6em;
+}
+
+#the-joke h2 {
+  margin: 20px 0px 10px 0px;
+  font-size: 1.4em;
+}
+
+#the-joke a {
+  color: #000;
+}
+
+#browsers-list li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
