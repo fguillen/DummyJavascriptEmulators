@@ -19,12 +19,12 @@
         <div id="loading">
           <a href="#">start</a>
         </div>
-    
+
         <div id="windows">
           <img src="./assets/osx.jpg" />
-        </div>    
+        </div>
       </div>
-    
+
       <div id="description">
         <h1>OSX Javascript Emulator</h1>
         <p>Уровня которым до код. Не всего вероятно разработку или. Не русском начинают бог. Мы вот палки больше клоунов. На тд фирме потратите. Мог быстро двигает об.</p>
@@ -36,7 +36,7 @@
           <p>This is just joke by <a href="http://fernandoguillen.info">Fernando Guillen</a></p>
           <p>You can <a href="https://github.com/fguillen/DummyJavascriptEmulators">fork me in github</a></p>
           <p>Checkout the <a href="../windows/index.html">Windows Javascript Emulator</a></p>
-          
+
           <h2>Tested on</h2>
           <ul id="browsers-list">
             <li>Chrome 14.0.835.202</li>
@@ -45,20 +45,24 @@
           </ul>
         </div>
       </div>
-    
+
 
     </div> <!-- container -->
 
-    <!-- google analytics -->
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    var pageTracker = _gat._getTracker("UA-3468219-1");
-    pageTracker._initData();
-    pageTracker._trackPageview();
-    </script>
-    <!-- google analytics -->
+  <!-- google analytics -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34268044-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  <!-- google analytics -->
   </body>
 </html>
