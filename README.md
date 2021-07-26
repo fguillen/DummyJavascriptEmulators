@@ -6,5 +6,5 @@ Atention: this is just a joke.
 
 ## Demos
 
-* [Windows Javascript Emulator](http://about.fernandoguillen.info/playing/DummyJavascriptEmulators/windows)
-* [OSX Javascript Emulator](http://about.fernandoguillen.info/playing/DummyJavascriptEmulators/osx)
+* [Windows Javascript Emulator](https://fguillen.github.io/DummyJavascriptEmulators/windows)
+* [OSX Javascript Emulator](https://fguillen.github.io/DummyJavascriptEmulators/osx)
